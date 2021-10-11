@@ -24,9 +24,18 @@ function Footer() {
                 className="btn-simple btn-icon btn-facebook"
                 href="mailto:tap@nitjsr.ac.in"
                 variant="link"
+            >
+              <i className="fas fa-envelope"></i>
+            </Button>
+
+              <Button
+                  className="btn-simple btn-icon btn-linkedin"
+                  href="https://www.linkedin.com/"
+                  variant="link"
               >
-                <i className="fas fa-envelope"></i>
+                <i className="fab fa-linkedin"></i>
               </Button>
+
             </Row>
             <Row className="d-flex justify-content-center align-items-center">
               <h5 className="title">Training and Placement Cell</h5>
