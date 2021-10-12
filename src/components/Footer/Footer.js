@@ -19,6 +19,14 @@ function Footer() {
               >
                 <i className="fab fa-facebook-square"></i>
               </Button>
+              <Button
+                className="btn-simple btn-icon btn-facebook"
+                href="https://www.linkedin.com/school/national-institute-of-technology-jamshedpur/"
+
+                variant="link"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </Button>
 
               <Button
                 className="btn-simple btn-icon btn-facebook"
