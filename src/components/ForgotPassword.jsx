@@ -9,7 +9,7 @@ function ForgotPassword(){
 
   //adding useState and useHistory state to component
   const [ForgotPasswordMail,setForgotPasswordMail]=useState("");
-  const history=useHistory();
+  const history=useHistory();    //The useHistory hook allows us to access React Router's history object.We can access and manipulate the current state of the browser history.
     
   //triggered on change of associated field
    function handleChange(event){
