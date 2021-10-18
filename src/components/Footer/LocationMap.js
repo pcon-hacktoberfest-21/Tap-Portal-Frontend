@@ -25,7 +25,7 @@ class LocationMap extends Component {
       // Important! Always set the container height explicitly
       <div style={{ height: "300px", width: "600px" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyBefi7JKzLZcOjpyANrrp0hoz35iHVOUck" }}
+          bootstrapURLKeys={{ key: "<- Add Token Here ->" }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           yesIWantToUseGoogleMapApiInternals
