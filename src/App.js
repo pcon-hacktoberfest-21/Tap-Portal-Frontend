@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { useLocation, Route, Switch } from "react-router-dom";
 
@@ -7,12 +5,12 @@ import AdminNavbar from "components/Navbars/AdminNavbar";
 import Footer from "components/Footer/Footer";
 import Sidebar from "components/Sidebar/Sidebar";
 
-
 import routes from "routes.js";
 
 import sidebarImage from "assets/img/sidebar-3.jpg";
 
 function Admin() {
+
   const [image] = React.useState(sidebarImage);
   const [color] = React.useState("black");
   const [hasImage] = React.useState(true);
@@ -33,6 +31,7 @@ function Admin() {
       }
     });
   };
+
   React.useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -46,17 +45,21 @@ function Admin() {
       element.parentNode.removeChild(element);
     }
   }, [location]);
+
   return (
     <>
       <div className="wrapper">
         <Sidebar color={color} image={hasImage ? image : ""} routes={routes} />
+        
+
         <div className="main-panel" ref={mainPanel}>
           <AdminNavbar />
           <div className="content">
-            <Switch>{getRoutes(routes)}</Switch>
-          </div>
-          <Footer />
+          <Switch>{getRoutes(routes)}</Switch>
         </div>
+        <Footer />
+        </div>
+        
       </div>
     </>
   );
