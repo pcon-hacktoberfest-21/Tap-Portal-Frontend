@@ -1,0 +1,100 @@
+.paragraph {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.list {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.link {
+    font-size: 1.3vw;
+    color: white;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+    .paragraph {
+        font-size: 2.0vw;
+        color: white;
+    }
+
+    .list {
+        font-size: 2.0vw;
+        color: white;
+    }
+
+    .link {
+        font-size: 1.8vw;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .paragraph {
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    .list {
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    .link {
+        font-size: 2.3vw;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .paragraph {
+        font-size: 2.7vw;
+        color: white;
+    }
+
+    .list {
+        font-size: 2.7vw;
+        color: white;
+    }
+
+    .link {
+        font-size: 2.5vw;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .paragraph {
+        font-size: 3.4vw;
+        color: white;
+    }
+
+    .list {
+        font-size: 3.4vw;
+        color: white;
+    }
+
+    .link {
+        font-size: 3.2vw;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .paragraph {
+        font-size: 3.9vw;
+        color: white;
+    }
+
+    .list {
+        font-size: 3.9vw;
+        color: white;
+    }
+
+    .link {
+        font-size: 3.7vw;
+        color: white;
+    }
+}

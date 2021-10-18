@@ -7,6 +7,22 @@ body,#root,.App-header, html {
     
 }
 
+button {
+  border: none;
+}
+
+.apply-btn {
+  background-color: rgb(97, 238, 151);
+  font-weight: bold;
+  font-size : '0.75rem';
+  color: white;
+  border-radius: 10px;
+  display: block;
+  padding: 12px 20px;
+}
+
+
+
 /* css for StudentLogin and ForgotPassword page */
 
 .bg{
