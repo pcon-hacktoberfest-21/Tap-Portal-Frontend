@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Container,Row, Button } from "react-bootstrap";
+import LocationMap from "./LocationMap";
 function Footer() {
   return (
     <footer className="footer">
@@ -9,6 +10,9 @@ function Footer() {
           <div style={{ backgroundColor: "rgba(0,0,0,0.7" }}>
             <Row className="d-flex justify-content-center align-items-center">
               <h3 className="title mt-1 xs"><a className="anchor" href="http://www.nitjsr.ac.in/tap/portfolio/">TAP </a>NIT JAMSHEDPUR</h3>
+            </Row>
+            <Row className="d-flex justify-content-center align-items-center">
+             <LocationMap/>
             </Row>
             <Row className="d-flex justify-content-center align-items-center ">
               <Button
@@ -43,7 +47,7 @@ function Footer() {
             </Row>
             <Row className="d-flex justify-content-center align-items-center title">Phone: +91-9430335621</Row>
             <Row className="d-flex justify-content-center align-items-center copyright">
-              &copy; {new Date().getFullYear()}Copyright:<a href="http://www.nitjsr.ac.in/">NIT JSR</a> | Image Courtesy: <a href="https://www.instagram.com/official.phocus/"> Phocus</a>
+              &copy; {new Date().getFullYear()} Copyright:<a href="http://www.nitjsr.ac.in/">NIT JSR</a> | Image Courtesy: <a href="https://www.instagram.com/official.phocus/"> Phocus</a>
             </Row>
           </div>
         </div>
