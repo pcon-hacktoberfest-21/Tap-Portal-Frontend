@@ -5,6 +5,7 @@ import toApply from "./components/views/toApply.js";
 // import toApply from "./components/Table/index"
 import allAppliedList from "./components/views/allAppliedList.js";
 import Notifications from "./components/views/Notifications.js";
+import cards from "./components/views/cards";
 
 const dashboardRoutes = [
   {
@@ -41,6 +42,13 @@ const dashboardRoutes = [
     name: "Notifications",
     icon: "nc-icon nc-bell-55",
     component: Notifications,
+    layout: "/admin",
+  },
+  {
+    path: "/cards",
+    name: "Cards",
+    icon: "nc-icon nc-notes",
+    component: cards,
     layout: "/admin",
   },
 ];
