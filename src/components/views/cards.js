@@ -18,7 +18,7 @@ function cards() {
 
             <Card 
                title= "Card 2"
-               image = {img2}
+               image = {img4}
                body = "This is body of card 2 , Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis. "
             />
 
@@ -42,7 +42,7 @@ function cards() {
 
             <Card 
                title= "Card 6"
-               image = {img2}
+               image = {img3}
                body = "This is body of card 6 , Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis."
             />
 
