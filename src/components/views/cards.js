@@ -4,6 +4,9 @@ import img1 from '../../assets/img/drone.jpg'
 import img2 from '../../assets/img/sidebar-3.jpg'
 import img3 from '../../assets/img/tapPhoto.png'
 import img4 from '../../assets/img/card_bg2.jpg'
+import img5 from '../../assets/img/main-building.jpg'
+import img6 from '../../assets/img/hostelroad.jpg'
+import img7 from '../../assets/img/hostel.jpg'
 
 import Card from '../Card'
 
@@ -44,6 +47,21 @@ function cards() {
                title= "Card 6"
                image = {img3}
                body = "This is body of card 6 , Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis."
+            />
+            <Card 
+               title= "NITJSR Main Building"
+               image = {img5}
+               body = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis."
+            />
+            <Card 
+               title= "Hostel J & K"
+               image = {img6}
+               body = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis."
+            />
+            <Card 
+               title= "4th Year Hostel"
+               image = {img7}
+               body = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laudantium quis accusantium consequatur omnis rem sequi voluptate debitis autem veritatis."
             />
 
         </div>
